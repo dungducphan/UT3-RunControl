@@ -104,7 +104,7 @@ RUN cd /epics/synApps/support/areaDetector-R3-12-1 && \
 # DEPLOY EPICS-BASE stage
 FROM ubuntu:22.04
 
-RUN apt-get update && apt-get install -y vim libxmu-dev
+RUN apt-get update && apt-get install -y vim libxmu-dev iproute2
 
 COPY --from=builder /EPICS /EPICS
 
