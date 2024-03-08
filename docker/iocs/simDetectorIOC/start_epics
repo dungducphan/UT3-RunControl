@@ -1,0 +1,3 @@
+#!/bin/bash
+
+simDetectorApp st.cmd.linux
